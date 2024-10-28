@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 namespace PreviewDemo
 {
 	/// <summary>
-	/// Form1 µÄÕªÒªËµÃ÷¡£
+	/// Form1 çš„æ‘˜è¦è¯´æ˜ã€‚
 	/// </summary>
 	public class Preview : System.Windows.Forms.Form
 	{
@@ -50,14 +50,14 @@ namespace PreviewDemo
         private Button btnPTZ;
         private Label label15;
 		/// <summary>
-		/// ±ØĞèµÄÉè¼ÆÆ÷±äÁ¿¡£
+		/// å¿…éœ€çš„è®¾è®¡å™¨å˜é‡ã€‚
 		/// </summary>
 		private System.ComponentModel.Container components = null;
 
 		public Preview()
 		{
 			//
-			// Windows ´°ÌåÉè¼ÆÆ÷Ö§³ÖËù±ØĞèµÄ
+			// Windows çª—ä½“è®¾è®¡å™¨æ”¯æŒæ‰€å¿…éœ€çš„
 			//
 			InitializeComponent();
 			m_bInitSDK = CHCNetSDK.NET_DVR_Init();
@@ -68,16 +68,16 @@ namespace PreviewDemo
 			}
 			else
 			{
-                //±£´æSDKÈÕÖ¾ To save the SDK log
+                //ä¿å­˜SDKæ—¥å¿— To save the SDK log
                 CHCNetSDK.NET_DVR_SetLogToFile(3, "C:\\SdkLog\\", true);
 			}
 			//
-			// TODO: ÔÚ InitializeComponent µ÷ÓÃºóÌí¼ÓÈÎºÎ¹¹Ôìº¯Êı´úÂë
+			// TODO: åœ¨ InitializeComponent è°ƒç”¨åæ·»åŠ ä»»ä½•æ„é€ å‡½æ•°ä»£ç 
 			//
 		}
 
 		/// <summary>
-		/// ÇåÀíËùÓĞÕıÔÚÊ¹ÓÃµÄ×ÊÔ´¡£
+		/// æ¸…ç†æ‰€æœ‰æ­£åœ¨ä½¿ç”¨çš„èµ„æºã€‚
 		/// </summary>
 		protected override void Dispose( bool disposing )
 		{
@@ -103,10 +103,10 @@ namespace PreviewDemo
 			base.Dispose( disposing );
 		}
 
-		#region Windows ´°ÌåÉè¼ÆÆ÷Éú³ÉµÄ´úÂë
+		#region Windows çª—ä½“è®¾è®¡å™¨ç”Ÿæˆçš„ä»£ç 
 		/// <summary>
-		/// Éè¼ÆÆ÷Ö§³ÖËùĞèµÄ·½·¨ - ²»ÒªÊ¹ÓÃ´úÂë±à¼­Æ÷ĞŞ¸Ä
-		/// ´Ë·½·¨µÄÄÚÈİ¡£
+		/// è®¾è®¡å™¨æ”¯æŒæ‰€éœ€çš„æ–¹æ³• - ä¸è¦ä½¿ç”¨ä»£ç ç¼–è¾‘å™¨ä¿®æ”¹
+		/// æ­¤æ–¹æ³•çš„å†…å®¹ã€‚
 		/// </summary>
 		private void InitializeComponent()
 		{
@@ -241,7 +241,7 @@ namespace PreviewDemo
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Éè±¸IP";
+            this.label5.Text = "è®¾å¤‡IP";
             // 
             // label6
             // 
@@ -250,7 +250,7 @@ namespace PreviewDemo
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Éè±¸¶Ë¿Ú";
+            this.label6.Text = "è®¾å¤‡ç«¯å£";
             // 
             // label7
             // 
@@ -259,7 +259,7 @@ namespace PreviewDemo
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 12);
             this.label7.TabIndex = 11;
-            this.label7.Text = "ÓÃ»§Ãû";
+            this.label7.Text = "ç”¨æˆ·å";
             // 
             // label8
             // 
@@ -268,7 +268,7 @@ namespace PreviewDemo
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 12);
             this.label8.TabIndex = 12;
-            this.label8.Text = "ÃÜÂë";
+            this.label8.Text = "å¯†ç ";
             // 
             // label9
             // 
@@ -277,7 +277,7 @@ namespace PreviewDemo
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Ô¤ÀÀ";
+            this.label9.Text = "é¢„è§ˆ";
             // 
             // label10
             // 
@@ -286,7 +286,7 @@ namespace PreviewDemo
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(29, 12);
             this.label10.TabIndex = 14;
-            this.label10.Text = "µÇÂ¼";
+            this.label10.Text = "ç™»å½•";
             // 
             // btnBMP
             // 
@@ -315,7 +315,7 @@ namespace PreviewDemo
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(47, 12);
             this.label11.TabIndex = 17;
-            this.label11.Text = "BMP×¥Í¼";
+            this.label11.Text = "BMPæŠ“å›¾";
             // 
             // label12
             // 
@@ -324,7 +324,7 @@ namespace PreviewDemo
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 12);
             this.label12.TabIndex = 18;
-            this.label12.Text = "JPEG×¥Í¼";
+            this.label12.Text = "JPEGæŠ“å›¾";
             // 
             // label13
             // 
@@ -333,7 +333,7 @@ namespace PreviewDemo
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(83, 12);
             this.label13.TabIndex = 19;
-            this.label13.Text = "Ô¤ÀÀ/×¥Í¼Í¨µÀ";
+            this.label13.Text = "é¢„è§ˆ/æŠ“å›¾é€šé“";
             // 
             // textBoxChannel
             // 
@@ -360,7 +360,7 @@ namespace PreviewDemo
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(65, 12);
             this.label14.TabIndex = 22;
-            this.label14.Text = "¿Í»§¶ËÂ¼Ïñ";
+            this.label14.Text = "å®¢æˆ·ç«¯å½•åƒ";
             // 
             // btn_Exit
             // 
@@ -369,7 +369,7 @@ namespace PreviewDemo
             this.btn_Exit.Size = new System.Drawing.Size(75, 32);
             this.btn_Exit.TabIndex = 11;
             this.btn_Exit.Tag = "";
-            this.btn_Exit.Text = "ÍË³ö Exit";
+            this.btn_Exit.Text = "é€€å‡º Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
@@ -390,7 +390,7 @@ namespace PreviewDemo
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(53, 12);
             this.label15.TabIndex = 24;
-            this.label15.Text = "ÔÆÌ¨¿ØÖÆ";
+            this.label15.Text = "äº‘å°æ§åˆ¶";
             // 
             // Preview
             // 
@@ -435,7 +435,7 @@ namespace PreviewDemo
 		#endregion
 
 		/// <summary>
-		/// Ó¦ÓÃ³ÌĞòµÄÖ÷Èë¿Úµã¡£
+		/// åº”ç”¨ç¨‹åºçš„ä¸»å…¥å£ç‚¹ã€‚
 		/// </summary>
 		[STAThread]
 		static void Main() 
@@ -458,25 +458,25 @@ namespace PreviewDemo
 			}
             if (m_lUserID < 0)
             {
-                string DVRIPAddress = textBoxIP.Text; //Éè±¸IPµØÖ·»òÕßÓòÃû
-                Int16 DVRPortNumber = Int16.Parse(textBoxPort.Text);//Éè±¸·şÎñ¶Ë¿ÚºÅ
-                string DVRUserName = textBoxUserName.Text;//Éè±¸µÇÂ¼ÓÃ»§Ãû
-                string DVRPassword = textBoxPassword.Text;//Éè±¸µÇÂ¼ÃÜÂë
+                string DVRIPAddress = textBoxIP.Text; //è®¾å¤‡IPåœ°å€æˆ–è€…åŸŸå
+                Int16 DVRPortNumber = Int16.Parse(textBoxPort.Text);//è®¾å¤‡æœåŠ¡ç«¯å£å·
+                string DVRUserName = textBoxUserName.Text;//è®¾å¤‡ç™»å½•ç”¨æˆ·å
+                string DVRPassword = textBoxPassword.Text;//è®¾å¤‡ç™»å½•å¯†ç 
 
                 CHCNetSDK.NET_DVR_DEVICEINFO_V30 DeviceInfo = new CHCNetSDK.NET_DVR_DEVICEINFO_V30();
 
-                //µÇÂ¼Éè±¸ Login the device
+                //ç™»å½•è®¾å¤‡ Login the device
                 m_lUserID = CHCNetSDK.NET_DVR_Login_V30(DVRIPAddress, DVRPortNumber, DVRUserName, DVRPassword, ref DeviceInfo);
                 if (m_lUserID < 0)
                 {
                     iLastErr = CHCNetSDK.NET_DVR_GetLastError();
-                    str = "NET_DVR_Login_V30 failed, error code= " + iLastErr; //µÇÂ¼Ê§°Ü£¬Êä³ö´íÎóºÅ
+                    str = "NET_DVR_Login_V30 failed, error code= " + iLastErr; //ç™»å½•å¤±è´¥ï¼Œè¾“å‡ºé”™è¯¯å·
                     MessageBox.Show(str);
                     return;
                 }
                 else
                 {
-                    //µÇÂ¼³É¹¦
+                    //ç™»å½•æˆåŠŸ
                     MessageBox.Show("Login Success!");
                     btnLogin.Text = "Logout";
                 }
@@ -484,7 +484,7 @@ namespace PreviewDemo
             }
             else
             {
-                //×¢ÏúµÇÂ¼ Logout the device
+                //æ³¨é”€ç™»å½• Logout the device
                 if (m_lRealHandle >= 0)
                 {
                     MessageBox.Show("Please stop live view firstly");
@@ -515,34 +515,34 @@ namespace PreviewDemo
             if (m_lRealHandle < 0)
             {
                 CHCNetSDK.NET_DVR_PREVIEWINFO lpPreviewInfo = new CHCNetSDK.NET_DVR_PREVIEWINFO();
-                lpPreviewInfo.hPlayWnd = RealPlayWnd.Handle;//Ô¤ÀÀ´°¿Ú
-                lpPreviewInfo.lChannel = Int16.Parse(textBoxChannel.Text);//Ô¤teÀÀµÄÉè±¸Í¨µÀ
-                lpPreviewInfo.dwStreamType = 0;//ÂëÁ÷ÀàĞÍ£º0-Ö÷ÂëÁ÷£¬1-×ÓÂëÁ÷£¬2-ÂëÁ÷3£¬3-ÂëÁ÷4£¬ÒÔ´ËÀàÍÆ
-                lpPreviewInfo.dwLinkMode = 0;//Á¬½Ó·½Ê½£º0- TCP·½Ê½£¬1- UDP·½Ê½£¬2- ¶à²¥·½Ê½£¬3- RTP·½Ê½£¬4-RTP/RTSP£¬5-RSTP/HTTP 
-                lpPreviewInfo.bBlocked = true; //0- ·Ç×èÈûÈ¡Á÷£¬1- ×èÈûÈ¡Á÷
-                lpPreviewInfo.dwDisplayBufNum = 15; //²¥·Å¿â²¥·Å»º³åÇø×î´ó»º³åÖ¡Êı
+                lpPreviewInfo.hPlayWnd = RealPlayWnd.Handle;//é¢„è§ˆçª—å£
+                lpPreviewInfo.lChannel = Int16.Parse(textBoxChannel.Text);//é¢„teè§ˆçš„è®¾å¤‡é€šé“
+                lpPreviewInfo.dwStreamType = 0;//ç æµç±»å‹ï¼š0-ä¸»ç æµï¼Œ1-å­ç æµï¼Œ2-ç æµ3ï¼Œ3-ç æµ4ï¼Œä»¥æ­¤ç±»æ¨
+                lpPreviewInfo.dwLinkMode = 0;//è¿æ¥æ–¹å¼ï¼š0- TCPæ–¹å¼ï¼Œ1- UDPæ–¹å¼ï¼Œ2- å¤šæ’­æ–¹å¼ï¼Œ3- RTPæ–¹å¼ï¼Œ4-RTP/RTSPï¼Œ5-RSTP/HTTP 
+                lpPreviewInfo.bBlocked = true; //0- éé˜»å¡å–æµï¼Œ1- é˜»å¡å–æµ
+                lpPreviewInfo.dwDisplayBufNum = 15; //æ’­æ”¾åº“æ’­æ”¾ç¼“å†²åŒºæœ€å¤§ç¼“å†²å¸§æ•°
 
-                CHCNetSDK.REALDATACALLBACK RealData = new CHCNetSDK.REALDATACALLBACK(RealDataCallBack);//Ô¤ÀÀÊµÊ±Á÷»Øµ÷º¯Êı
-                IntPtr pUser = new IntPtr();//ÓÃ»§Êı¾İ
+                CHCNetSDK.REALDATACALLBACK RealData = new CHCNetSDK.REALDATACALLBACK(RealDataCallBack);//é¢„è§ˆå®æ—¶æµå›è°ƒå‡½æ•°
+                IntPtr pUser = new IntPtr();//ç”¨æˆ·æ•°æ®
 
-                //´ò¿ªÔ¤ÀÀ Start live view 
+                //æ‰“å¼€é¢„è§ˆ Start live view 
                 m_lRealHandle = CHCNetSDK.NET_DVR_RealPlay_V40(m_lUserID, ref lpPreviewInfo, null/*RealData*/, pUser);
                 if (m_lRealHandle < 0)
                 {
                     iLastErr = CHCNetSDK.NET_DVR_GetLastError();
-                    str = "NET_DVR_RealPlay_V40 failed, error code= " + iLastErr; //Ô¤ÀÀÊ§°Ü£¬Êä³ö´íÎóºÅ
+                    str = "NET_DVR_RealPlay_V40 failed, error code= " + iLastErr; //é¢„è§ˆå¤±è´¥ï¼Œè¾“å‡ºé”™è¯¯å·
                     MessageBox.Show(str);
                     return;
                 }
                 else
                 {
-                    //Ô¤ÀÀ³É¹¦
+                    //é¢„è§ˆæˆåŠŸ
                     btnPreview.Text = "Stop Live View";
                 }
             }
             else
             {
-                //Í£Ö¹Ô¤ÀÀ Stop live view 
+                //åœæ­¢é¢„è§ˆ Stop live view 
                 if (!CHCNetSDK.NET_DVR_StopRealPlay(m_lRealHandle))
                 {
                     iLastErr = CHCNetSDK.NET_DVR_GetLastError();
@@ -564,10 +564,10 @@ namespace PreviewDemo
         private void btnBMP_Click(object sender, EventArgs e)
         {
             string sBmpPicFileName;
-            //Í¼Æ¬±£´æÂ·¾¶ºÍÎÄ¼şÃû the path and file name to save
+            //å›¾ç‰‡ä¿å­˜è·¯å¾„å’Œæ–‡ä»¶å the path and file name to save
             sBmpPicFileName = "BMP_test.bmp"; 
 
-            //BMP×¥Í¼ Capture a BMP picture
+            //BMPæŠ“å›¾ Capture a BMP picture
             if (!CHCNetSDK.NET_DVR_CapturePicture(m_lRealHandle, sBmpPicFileName))
             {
                 iLastErr = CHCNetSDK.NET_DVR_GetLastError();
@@ -586,16 +586,16 @@ namespace PreviewDemo
         private void btnJPEG_Click(object sender, EventArgs e)
         {
             string sJpegPicFileName;
-            //Í¼Æ¬±£´æÂ·¾¶ºÍÎÄ¼şÃû the path and file name to save
+            //å›¾ç‰‡ä¿å­˜è·¯å¾„å’Œæ–‡ä»¶å the path and file name to save
             sJpegPicFileName = "JPEG_test.jpg";
 
-            int lChannel = Int16.Parse(textBoxChannel.Text); //Í¨µÀºÅ Channel number
+            int lChannel = Int16.Parse(textBoxChannel.Text); //é€šé“å· Channel number
 
             CHCNetSDK.NET_DVR_JPEGPARA lpJpegPara = new CHCNetSDK.NET_DVR_JPEGPARA();
-            lpJpegPara.wPicQuality = 0; //Í¼ÏñÖÊÁ¿ Image quality
-            lpJpegPara.wPicSize = 0xff; //×¥Í¼·Ö±æÂÊ Picture size: 2- 4CIF£¬0xff- Auto(Ê¹ÓÃµ±Ç°ÂëÁ÷·Ö±æÂÊ)£¬×¥Í¼·Ö±æÂÊĞèÒªÉè±¸Ö§³Ö£¬¸ü¶àÈ¡ÖµÇë²Î¿¼SDKÎÄµµ
+            lpJpegPara.wPicQuality = 0; //å›¾åƒè´¨é‡ Image quality
+            lpJpegPara.wPicSize = 0xff; //æŠ“å›¾åˆ†è¾¨ç‡ Picture size: 2- 4CIFï¼Œ0xff- Auto(ä½¿ç”¨å½“å‰ç æµåˆ†è¾¨ç‡)ï¼ŒæŠ“å›¾åˆ†è¾¨ç‡éœ€è¦è®¾å¤‡æ”¯æŒï¼Œæ›´å¤šå–å€¼è¯·å‚è€ƒSDKæ–‡æ¡£
 
-            //JPEG×¥Í¼ Capture a JPEG picture
+            //JPEGæŠ“å›¾ Capture a JPEG picture
             if (!CHCNetSDK.NET_DVR_CaptureJPEGPicture(m_lUserID, lChannel, ref lpJpegPara, sJpegPicFileName))
             {
                 iLastErr = CHCNetSDK.NET_DVR_GetLastError();
@@ -613,17 +613,17 @@ namespace PreviewDemo
 
         private void btnRecord_Click(object sender, EventArgs e)
         {
-            //Â¼Ïñ±£´æÂ·¾¶ºÍÎÄ¼şÃû the path and file name to save
+            //å½•åƒä¿å­˜è·¯å¾„å’Œæ–‡ä»¶å the path and file name to save
             string sVideoFileName;
             sVideoFileName = "Record_test.mp4";
 
             if (m_bRecord == false)
             {
-                //Ç¿ÖÆIÖ¡ Make a I frame
-                int lChannel = Int16.Parse(textBoxChannel.Text); //Í¨µÀºÅ Channel number
+                //å¼ºåˆ¶Iå¸§ Make a I frame
+                int lChannel = Int16.Parse(textBoxChannel.Text); //é€šé“å· Channel number
                 CHCNetSDK.NET_DVR_MakeKeyFrame(m_lUserID, lChannel);
 
-                //¿ªÊ¼Â¼Ïñ Start recording
+                //å¼€å§‹å½•åƒ Start recording
                 if (!CHCNetSDK.NET_DVR_SaveRealData(m_lRealHandle, sVideoFileName))
                 {
                     iLastErr = CHCNetSDK.NET_DVR_GetLastError();
@@ -639,7 +639,7 @@ namespace PreviewDemo
             }
             else
             {
-                //Í£Ö¹Â¼Ïñ Stop recording
+                //åœæ­¢å½•åƒ Stop recording
                 if (!CHCNetSDK.NET_DVR_StopSaveRealData(m_lRealHandle))
                 {
                     iLastErr = CHCNetSDK.NET_DVR_GetLastError();
@@ -661,14 +661,14 @@ namespace PreviewDemo
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
-            //Í£Ö¹Ô¤ÀÀ Stop live view 
+            //åœæ­¢é¢„è§ˆ Stop live view 
             if (m_lRealHandle >= 0)
             {
                 CHCNetSDK.NET_DVR_StopRealPlay(m_lRealHandle);
                 m_lRealHandle = -1;
             }
 
-            //×¢ÏúµÇÂ¼ Logout the device
+            //æ³¨é”€ç™»å½• Logout the device
             if (m_lUserID >= 0)
             {
                 CHCNetSDK.NET_DVR_Logout(m_lUserID);
