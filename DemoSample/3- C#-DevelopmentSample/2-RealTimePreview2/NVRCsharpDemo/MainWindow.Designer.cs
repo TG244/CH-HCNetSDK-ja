@@ -84,129 +84,144 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(517, 37);
+            this.label10.Location = new System.Drawing.Point(862, 56);
+            this.label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 12);
+            this.label10.Size = new System.Drawing.Size(44, 18);
             this.label10.TabIndex = 28;
             this.label10.Text = "登录";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(285, 97);
+            this.label8.Location = new System.Drawing.Point(475, 146);
+            this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 12);
+            this.label8.Size = new System.Drawing.Size(44, 18);
             this.label8.TabIndex = 27;
             this.label8.Text = "密码";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 97);
+            this.label7.Location = new System.Drawing.Point(15, 146);
+            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 12);
+            this.label7.Size = new System.Drawing.Size(62, 18);
             this.label7.TabIndex = 26;
             this.label7.Text = "用户名";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(283, 57);
+            this.label6.Location = new System.Drawing.Point(472, 86);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(80, 18);
             this.label6.TabIndex = 25;
             this.label6.Text = "设备端口";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 57);
+            this.label5.Location = new System.Drawing.Point(13, 86);
+            this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 12);
+            this.label5.Size = new System.Drawing.Size(113, 18);
             this.label5.TabIndex = 24;
             this.label5.Text = "设备IP或域名";
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBoxPassword.Location = new System.Drawing.Point(371, 81);
+            this.textBoxPassword.Location = new System.Drawing.Point(618, 122);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(112, 21);
+            this.textBoxPassword.Size = new System.Drawing.Size(184, 25);
             this.textBoxPassword.TabIndex = 23;
             this.textBoxPassword.Text = "12345";
             // 
             // textBoxUserName
             // 
-            this.textBoxUserName.Location = new System.Drawing.Point(121, 81);
+            this.textBoxUserName.Location = new System.Drawing.Point(202, 122);
+            this.textBoxUserName.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(141, 21);
+            this.textBoxUserName.Size = new System.Drawing.Size(232, 25);
             this.textBoxUserName.TabIndex = 22;
             this.textBoxUserName.Text = "admin";
             // 
             // textBoxPort
             // 
-            this.textBoxPort.Location = new System.Drawing.Point(371, 43);
+            this.textBoxPort.Location = new System.Drawing.Point(618, 64);
+            this.textBoxPort.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.textBoxPort.Name = "textBoxPort";
-            this.textBoxPort.Size = new System.Drawing.Size(112, 21);
+            this.textBoxPort.Size = new System.Drawing.Size(184, 25);
             this.textBoxPort.TabIndex = 21;
             this.textBoxPort.Text = "8000";
             // 
             // textBoxIP
             // 
-            this.textBoxIP.Location = new System.Drawing.Point(121, 43);
+            this.textBoxIP.Location = new System.Drawing.Point(202, 64);
+            this.textBoxIP.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.textBoxIP.Name = "textBoxIP";
-            this.textBoxIP.Size = new System.Drawing.Size(141, 21);
+            this.textBoxIP.Size = new System.Drawing.Size(232, 25);
             this.textBoxIP.TabIndex = 20;
             this.textBoxIP.Text = "10.16.3.245";
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(498, 52);
+            this.btnLogin.Location = new System.Drawing.Point(830, 78);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(78, 50);
+            this.btnLogin.Size = new System.Drawing.Size(130, 75);
             this.btnLogin.TabIndex = 19;
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(8, 39);
+            this.label1.Location = new System.Drawing.Point(13, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 15);
+            this.label1.Size = new System.Drawing.Size(172, 22);
             this.label1.TabIndex = 16;
             this.label1.Text = "Device IP/Domain";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(8, 81);
+            this.label2.Location = new System.Drawing.Point(13, 122);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 16);
+            this.label2.Size = new System.Drawing.Size(103, 24);
             this.label2.TabIndex = 15;
             this.label2.Text = "User Name";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(283, 81);
+            this.label3.Location = new System.Drawing.Point(472, 122);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 16);
+            this.label3.Size = new System.Drawing.Size(105, 24);
             this.label3.TabIndex = 18;
             this.label3.Text = "Password";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(283, 39);
+            this.label4.Location = new System.Drawing.Point(472, 58);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 17);
+            this.label4.Size = new System.Drawing.Size(132, 26);
             this.label4.TabIndex = 17;
             this.label4.Text = "Device Port";
             // 
             // RealPlayWnd
             // 
             this.RealPlayWnd.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.RealPlayWnd.Location = new System.Drawing.Point(184, 124);
+            this.RealPlayWnd.Location = new System.Drawing.Point(307, 186);
+            this.RealPlayWnd.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.RealPlayWnd.Name = "RealPlayWnd";
-            this.RealPlayWnd.Size = new System.Drawing.Size(428, 341);
+            this.RealPlayWnd.Size = new System.Drawing.Size(713, 512);
             this.RealPlayWnd.TabIndex = 30;
             this.RealPlayWnd.TabStop = false;
             // 
@@ -217,10 +232,12 @@
             this.ColumnHeader2});
             this.listViewIPChannel.FullRowSelect = true;
             this.listViewIPChannel.GridLines = true;
-            this.listViewIPChannel.Location = new System.Drawing.Point(4, 124);
+            this.listViewIPChannel.HideSelection = false;
+            this.listViewIPChannel.Location = new System.Drawing.Point(7, 186);
+            this.listViewIPChannel.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.listViewIPChannel.MultiSelect = false;
             this.listViewIPChannel.Name = "listViewIPChannel";
-            this.listViewIPChannel.Size = new System.Drawing.Size(174, 311);
+            this.listViewIPChannel.Size = new System.Drawing.Size(287, 464);
             this.listViewIPChannel.TabIndex = 32;
             this.listViewIPChannel.UseCompatibleStateImageBehavior = false;
             this.listViewIPChannel.View = System.Windows.Forms.View.Details;
@@ -239,9 +256,10 @@
             // 
             // btnPreview
             // 
-            this.btnPreview.Location = new System.Drawing.Point(153, 15);
+            this.btnPreview.Location = new System.Drawing.Point(255, 22);
+            this.btnPreview.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnPreview.Name = "btnPreview";
-            this.btnPreview.Size = new System.Drawing.Size(75, 27);
+            this.btnPreview.Size = new System.Drawing.Size(125, 40);
             this.btnPreview.TabIndex = 33;
             this.btnPreview.Text = "Live View";
             this.btnPreview.UseVisualStyleBackColor = true;
@@ -250,17 +268,19 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(176, 47);
+            this.label11.Location = new System.Drawing.Point(293, 70);
+            this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.Size = new System.Drawing.Size(44, 18);
             this.label11.TabIndex = 34;
             this.label11.Text = "预览";
             // 
             // btnBMP
             // 
-            this.btnBMP.Location = new System.Drawing.Point(239, 16);
+            this.btnBMP.Location = new System.Drawing.Point(398, 24);
+            this.btnBMP.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnBMP.Name = "btnBMP";
-            this.btnBMP.Size = new System.Drawing.Size(79, 27);
+            this.btnBMP.Size = new System.Drawing.Size(132, 40);
             this.btnBMP.TabIndex = 36;
             this.btnBMP.Text = "Capture BMP";
             this.btnBMP.UseVisualStyleBackColor = true;
@@ -269,9 +289,10 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(255, 47);
+            this.label14.Location = new System.Drawing.Point(425, 70);
+            this.label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 12);
+            this.label14.Size = new System.Drawing.Size(79, 18);
             this.label14.TabIndex = 38;
             this.label14.Text = "BMP抓图";
             // 
@@ -287,18 +308,21 @@
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.btnPreview);
             this.groupBox2.Controls.Add(this.btnBMP);
-            this.groupBox2.Location = new System.Drawing.Point(4, 462);
+            this.groupBox2.Location = new System.Drawing.Point(7, 693);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(528, 68);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.groupBox2.Size = new System.Drawing.Size(880, 102);
             this.groupBox2.TabIndex = 40;
             this.groupBox2.TabStop = false;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(12, 44);
+            this.label12.Location = new System.Drawing.Point(20, 66);
+            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(0, 12);
+            this.label12.Size = new System.Drawing.Size(0, 18);
             this.label12.TabIndex = 47;
             // 
             // comboBoxView
@@ -307,25 +331,28 @@
             this.comboBoxView.Items.AddRange(new object[] {
             "Direct:直接预览 ",
             "Callback:回调解码 "});
-            this.comboBoxView.Location = new System.Drawing.Point(8, 18);
+            this.comboBoxView.Location = new System.Drawing.Point(13, 27);
+            this.comboBoxView.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.comboBoxView.Name = "comboBoxView";
-            this.comboBoxView.Size = new System.Drawing.Size(139, 20);
+            this.comboBoxView.Size = new System.Drawing.Size(229, 26);
             this.comboBoxView.TabIndex = 46;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(439, 45);
+            this.label15.Location = new System.Drawing.Point(732, 68);
+            this.label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(65, 12);
+            this.label15.Size = new System.Drawing.Size(98, 18);
             this.label15.TabIndex = 45;
             this.label15.Text = "客户端录像";
             // 
             // btnRecord
             // 
-            this.btnRecord.Location = new System.Drawing.Point(431, 17);
+            this.btnRecord.Location = new System.Drawing.Point(718, 26);
+            this.btnRecord.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnRecord.Name = "btnRecord";
-            this.btnRecord.Size = new System.Drawing.Size(89, 25);
+            this.btnRecord.Size = new System.Drawing.Size(148, 38);
             this.btnRecord.TabIndex = 44;
             this.btnRecord.Text = "Record";
             this.btnRecord.UseVisualStyleBackColor = true;
@@ -334,17 +361,19 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(346, 46);
+            this.label9.Location = new System.Drawing.Point(577, 69);
+            this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.Size = new System.Drawing.Size(87, 18);
             this.label9.TabIndex = 43;
             this.label9.Text = "JPEG抓图";
             // 
             // btnJPEG
             // 
-            this.btnJPEG.Location = new System.Drawing.Point(326, 17);
+            this.btnJPEG.Location = new System.Drawing.Point(543, 26);
+            this.btnJPEG.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnJPEG.Name = "btnJPEG";
-            this.btnJPEG.Size = new System.Drawing.Size(97, 26);
+            this.btnJPEG.Size = new System.Drawing.Size(162, 39);
             this.btnJPEG.TabIndex = 42;
             this.btnJPEG.Text = "Capture JPEG";
             this.btnJPEG.UseVisualStyleBackColor = true;
@@ -367,18 +396,21 @@
             this.groupBox3.Controls.Add(this.textBoxUserName);
             this.groupBox3.Controls.Add(this.btnLogin);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Location = new System.Drawing.Point(4, -2);
+            this.groupBox3.Location = new System.Drawing.Point(7, -3);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(608, 117);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.groupBox3.Size = new System.Drawing.Size(1013, 176);
             this.groupBox3.TabIndex = 41;
             this.groupBox3.TabStop = false;
             // 
             // checkBoxHiDDNS
             // 
             this.checkBoxHiDDNS.AutoSize = true;
-            this.checkBoxHiDDNS.Location = new System.Drawing.Point(9, 16);
+            this.checkBoxHiDDNS.Location = new System.Drawing.Point(15, 24);
+            this.checkBoxHiDDNS.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.checkBoxHiDDNS.Name = "checkBoxHiDDNS";
-            this.checkBoxHiDDNS.Size = new System.Drawing.Size(108, 16);
+            this.checkBoxHiDDNS.Size = new System.Drawing.Size(169, 22);
             this.checkBoxHiDDNS.TabIndex = 29;
             this.checkBoxHiDDNS.Text = "HiDDNS域名登录";
             this.checkBoxHiDDNS.UseVisualStyleBackColor = true;
@@ -386,9 +418,10 @@
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(538, 470);
+            this.btn_Exit.Location = new System.Drawing.Point(897, 705);
+            this.btn_Exit.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(69, 53);
+            this.btn_Exit.Size = new System.Drawing.Size(115, 80);
             this.btn_Exit.TabIndex = 42;
             this.btn_Exit.Text = "退出 Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
@@ -396,17 +429,19 @@
             // 
             // TextBoxInfo
             // 
-            this.TextBoxInfo.Location = new System.Drawing.Point(4, 536);
+            this.TextBoxInfo.Location = new System.Drawing.Point(7, 804);
+            this.TextBoxInfo.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.TextBoxInfo.Multiline = true;
             this.TextBoxInfo.Name = "TextBoxInfo";
-            this.TextBoxInfo.Size = new System.Drawing.Size(608, 35);
+            this.TextBoxInfo.Size = new System.Drawing.Size(1011, 50);
             this.TextBoxInfo.TabIndex = 43;
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(4, 439);
+            this.btnRefresh.Location = new System.Drawing.Point(7, 658);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(70, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(117, 34);
             this.btnRefresh.TabIndex = 44;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -415,17 +450,18 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(80, 444);
+            this.label13.Location = new System.Drawing.Point(133, 666);
+            this.label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 12);
+            this.label13.Size = new System.Drawing.Size(116, 18);
             this.label13.TabIndex = 45;
             this.label13.Text = "刷新通道列表";
             // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 577);
+            this.ClientSize = new System.Drawing.Size(1032, 866);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.TextBoxInfo);
@@ -434,6 +470,7 @@
             this.Controls.Add(this.RealPlayWnd);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Window";

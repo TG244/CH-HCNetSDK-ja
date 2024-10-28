@@ -382,7 +382,7 @@ namespace NVRCsharpDemo
                         {
                             iLastErr = PlayCtrl.PlayM4_GetLastError(m_lPort);
                             str = "PlayM4_Play failed, error code= " + iLastErr;
-                            this.BeginInvoke(AlarmInfo, str); 
+                            this.BeginInvoke(AlarmInfo, str);
                             break;
                         }
                     }

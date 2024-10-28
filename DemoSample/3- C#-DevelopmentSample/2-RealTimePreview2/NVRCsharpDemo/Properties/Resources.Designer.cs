@@ -35,7 +35,7 @@ namespace NVRCsharpDemo.Properties
         }
 
         /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
+        ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Resources.ResourceManager ResourceManager
